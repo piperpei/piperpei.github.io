@@ -1,0 +1,63 @@
+   .center {
+
+        text-align:center;
+
+  }
+  
+  .red {
+    
+        color:#bd4646;
+        font-weight:bold;
+    
+  }
+      
+  #para3 {
+
+        color:#ffcc00;
+        text-align:center;
+
+  }
+  
+  .blueborder  {
+        
+        height: 220px;
+        width: 500px;
+        padding: 15px;
+        border: 10px solid #4666bd;
+        margin: 20px;
+        background-color:white;
+        
+  }
+  
+    .para2 {
+
+        background-color:black;
+        color:white;
+        text-align:left;
+
+  }
+  
+  .redborder {
+    
+        height: 225px;
+        width: 500px;
+        padding: 15px;
+        border: 10px solid #a92f10;
+        margin: 20px;
+        background-color:black;
+    
+  }
+  
+  a:link {
+    
+    color: blue;
+    text-decoration:none;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: orange;
+  }
