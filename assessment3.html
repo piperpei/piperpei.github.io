@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html>
+   
+  <head>
+    
+    <title>Assignment 3</title>
+    
+  </head>
+  
+<body>
+
+<h2>JavaScript Prompt</h2>
+
+<button onclick="myFunction()">Click To Input Passcode</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var passcode = "ilovekarl"
+    var passcode = prompt("Please enter your passcode:", "*********");
+    if (passcode === "ilovekarl") {
+        alert("Congragulations. You entered the correct passcode and are now logged in. Nothing happens after this. You simply entered the right passcode. Good job I guess.");
+    }  else if(passcode == null || passcode == "") {
+        alert("This makes me wonder... do you even know your own passcode? Suspicious.");
+    }   else {
+        alert("Inncorrect passcode. Please try again.");
+    } 
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>  
