@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  
+  <title>Assignment 3</title>
+  
+</head>
+
+  <body>
+    
+    <h1>Assignment 3</h1>
+    
+    <h3>Guess My Number</h3>
+    
+    <button onclick="myFunction()">Click to Play</button>
+    
+    <p id="test"></p>
+    
+    <script>
+    
+    function myFunction() {
+    var answer = Math.floor(Math.random() * 5) + 1;
+    var guess = prompt("Guess a number between 1 and 5:", "");
+    var guesses = 1;
+    
+    while (guess != answer) {
+      guess = prompt("You guessed " + guess + ", which is incorrect. Try again!")
+      guesses ++;
+         }
+         
+    if (guess == answer) {
+    if (guesses == 1) {
+      alert("Nice job! You guessed " + guess + ", which is correct. It only took you " + guesses + " try!");
+          }
+    else {
+      alert("Nice job! You guessed " + guess + ", which is correct. It only took you " + guesses + " tries!");
+          }
+          }
+          
+    if (guesses ==1) {
+    document.getElementById("test").innerHTML = "You guessed " + number + " and it only took you " + guesses + " try";}
+    else {
+    document.getElementById("test").innerHTML = "You guessed " + number + " and it took you " + guesses + " tries";}
+    
+    }
+    </script>  
+    
+  </body>
+  
+</html>
