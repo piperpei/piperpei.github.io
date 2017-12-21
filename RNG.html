@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  
+  <title></title>
+  
+  <style>
+    
+    html {
+  background-color: black;
+  color:white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+  .border {
+    background-color: #660066;
+    text-align:center;
+  }
+  
+  .nyoom {
+    background-color: #1a7393;
+    border: 7px double #b2ec80;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+    cursor: pointer;
+  }
+  
+    .gobackhome {
+    background-color: #CC99CC;
+    border: 7px double #660066;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width:100%;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+    cursor: pointer;
+  }
+  
+  .gobackhome:hover {
+    background-color: #660066; 
+    color: white;
+    border: 7px double #CC99CC;
+  }
+    
+  </style>
+  
+</head>
+
+<body>
+  
+  <h1 class="border">The Useless RNG</h1>
+  
+  <button onclick="myFunction()" class ="nyoom">Get Number</button>
+  
+  <p>Your Number ---> <span id="demo"></span></p>
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <br />
+  
+  <button class="gobackhome">Go Back Home</button>
+  
+  <script>
+    
+  function myFunction() {
+    
+    document.getElementById("demo").innerHTML = Math.random() * 100000000000000000000000000000000000000000000000000000000000000000000000000001 / 16432456 / 8654332334566 / 7 / 11234689986543223457889008643212234567777782222234689097433 * 100000000000000 / 7 * 2017 / 4;
+}
+    
+  </script>
+  
+</body>
+
+</html>
