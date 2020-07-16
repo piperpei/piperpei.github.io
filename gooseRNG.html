@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head><link rel="stylesheet" href="goose.css"></head>
+<title>RNG</title>
+    <body>
+        <h1>Random Number Generator</h1>
+        <p>CLick it.</p>
+         <button class="button" onclick="myFunction()">Click for Random Number</button>
+        <p id="hello"></p>
+    <script> function myFunction() {
+            document.getElementById("hello").innerHTML = Math.floor((Math.random() * 100) +1);
+        }
+        </script>
+        <p>Includes Numbers 1 through 100. wow.</p>
+        <a style="text-decoration: none" class="button" href="Goose.html">Go Home Please</a>
+    </body>
+</html>
